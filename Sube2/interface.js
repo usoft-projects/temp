@@ -1,13 +1,13 @@
 
 function init(){
     var config = {
-      apiKey: "AIzaSyCNpifrazADwoJ85eWUrts9u1aQMxSIENU",
-      authDomain: "bolumangal-cayyolu.firebaseapp.com",
-      databaseURL: "https://bolumangal-cayyolu-default-rtdb.firebaseio.com",
-      projectId: "bolumangal-cayyolu",
-      storageBucket: "bolumangal-cayyolu.appspot.com",
-      messagingSenderId: "949653597401",
-      appId: "1:949653597401:web:801f7cd85b3e56e74ae2c8"
+      databaseURL: "https://bolumangal-sasmaz-default-rtdb.firebaseio.com",
+      apiKey: "AIzaSyBJdjWz4fMO0420mISNpRt8cmbr04EF18E",
+      authDomain: "bolumangal-sasmaz.firebaseapp.com",
+      projectId: "bolumangal-sasmaz",
+      storageBucket: "bolumangal-sasmaz.appspot.com",
+      messagingSenderId: "1050114521563",
+      appId: "1:1050114521563:web:07fedb86219d380fd08ffe"
     };
     
     firebase.initializeApp(config);
