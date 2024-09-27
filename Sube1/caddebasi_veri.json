@@ -1,0 +1,313 @@
+{
+  "1Configurations": [
+    "Pideler",
+    "Kebaplar",
+    "Döner",
+    "Steaks",
+    "Burger",
+    "İçecekler",
+    "Çorba",
+    "Tatlı",
+    "Kampanyalar"
+  ],
+  "Pideler": [
+    {
+      "details": "Kıymalı",
+      "image": "https://lh3.googleusercontent.com/p/AF1QipOPvUSBzlLG-QjD-T1AvmZxyWWpph6VWWKwdd72=s680-w680-h510",
+      "name": "Kıymalı Pide",
+      "price": 260
+    },
+    {
+      "details": "Kuşbaşılı",
+      "image": "https://lh3.googleusercontent.com/p/AF1QipOPvUSBzlLG-QjD-T1AvmZxyWWpph6VWWKwdd72=s680-w680-h510",
+      "name": "Kuşbaşılı Pide",
+      "price": 320
+    },
+    {
+      "details": "Dönerli",
+      "image": "https://lh3.googleusercontent.com/p/AF1QipOPvUSBzlLG-QjD-T1AvmZxyWWpph6VWWKwdd72=s680-w680-h510",
+      "name": "Dönerli Pide",
+      "price": 350
+    },
+    {
+      "details": "Kaşarlı",
+      "image": "https://lh3.googleusercontent.com/p/AF1QipOPvUSBzlLG-QjD-T1AvmZxyWWpph6VWWKwdd72=s680-w680-h510",
+      "name": "Kaşarlı Pide",
+      "price": 310
+    },
+    {
+      "details": "Lahmacun",
+      "image": "https://lh3.googleusercontent.com/p/AF1QipOPvUSBzlLG-QjD-T1AvmZxyWWpph6VWWKwdd72=s680-w680-h510",
+      "name": "Lahmacun",
+      "price": 150
+    },
+    {
+      "details": "Kıymalı Kaşarlı",
+      "image": "https://lh3.googleusercontent.com/p/AF1QipOPvUSBzlLG-QjD-T1AvmZxyWWpph6VWWKwdd72=s680-w680-h510",
+      "name": "Kıymalı Kaşarlı Pide",
+      "price": 320
+    },
+    {
+      "details": "Karışık",
+      "image": "https://lh3.googleusercontent.com/p/AF1QipOPvUSBzlLG-QjD-T1AvmZxyWWpph6VWWKwdd72=s680-w680-h510",
+      "name": "Karışık Pide",
+      "price": 350
+    },
+    {
+      "details": "Ispanaklı",
+      "image": "https://lh3.googleusercontent.com/p/AF1QipOPvUSBzlLG-QjD-T1AvmZxyWWpph6VWWKwdd72=s680-w680-h510",
+      "name": "Ispanaklı Pide",
+      "price": 250
+    },
+    {
+      "details": "Kuşbaşılı Kaşarlı",
+      "image": "https://lh3.googleusercontent.com/p/AF1QipOPvUSBzlLG-QjD-T1AvmZxyWWpph6VWWKwdd72=s680-w680-h510",
+      "name": "Kuşbaşılı Kaşarlı Pide",
+      "price": 340
+    }
+    ],
+  "Kebaplar": [
+    {
+      "details": "Adana Kebap",
+      "image": "https://lh3.googleusercontent.com/p/AF1QipOPvUSBzlLG-QjD-T1AvmZxyWWpph6VWWKwdd72=s680-w680-h510",
+      "name": "Adana Kebap",
+      "price": 320
+    },
+    {
+      "details": "Urfa Kebap",
+      "image": "https://lh3.googleusercontent.com/p/AF1QipOPvUSBzlLG-QjD-T1AvmZxyWWpph6VWWKwdd72=s680-w680-h510",
+      "name": "Urfa Kebap",
+      "price": 320
+    },
+    {
+      "details": "Beyti Kebap",
+      "image": "https://lh3.googleusercontent.com/p/AF1QipOPvUSBzlLG-QjD-T1AvmZxyWWpph6VWWKwdd72=s680-w680-h510",
+      "name": "Beyti Kebap",
+      "price": 390
+    },
+    {
+      "details": "Izgara Köfte",
+      "image": "https://lh3.googleusercontent.com/p/AF1QipOPvUSBzlLG-QjD-T1AvmZxyWWpph6VWWKwdd72=s680-w680-h510",
+      "name": "Izgara Köfte",
+      "price": 320
+    },
+    {
+      "details": "Kaşarlı Köfte",
+      "image": "https://lh3.googleusercontent.com/p/AF1QipOPvUSBzlLG-QjD-T1AvmZxyWWpph6VWWKwdd72=s680-w680-h510",
+      "name": "Kaşarlı Köfte",
+      "price": 335
+    },
+    {
+      "details": "Sivas Köfte",
+      "image": "https://lh3.googleusercontent.com/p/AF1QipOPvUSBzlLG-QjD-T1AvmZxyWWpph6VWWKwdd72=s680-w680-h510",
+      "name": "Sivas Köfte",
+      "price": 300
+    },
+    {
+      "details": "Çöp Şiş",
+      "image": "https://lh3.googleusercontent.com/p/AF1QipOPvUSBzlLG-QjD-T1AvmZxyWWpph6VWWKwdd72=s680-w680-h510",
+      "name": "Çöp Şiş",
+      "price": 400
+    },
+    {
+      "details": "Ciğer Şiş",
+      "image": "https://lh3.googleusercontent.com/p/AF1QipOPvUSBzlLG-QjD-T1AvmZxyWWpph6VWWKwdd72=s680-w680-h510",
+      "name": "Çöp Şiş",
+      "price": 410
+    },
+    {
+      "details": "Alinazik Kebap",
+      "image": "https://lh3.googleusercontent.com/p/AF1QipOPvUSBzlLG-QjD-T1AvmZxyWWpph6VWWKwdd72=s680-w680-h510",
+      "name": "Alinazik Kebap",
+      "price": 350
+    }
+  ],
+  "Döner": [
+    {
+      "details": "Döner Dürüm",
+      "image": "https://lh3.googleusercontent.com/p/AF1QipOPvUSBzlLG-QjD-T1AvmZxyWWpph6VWWKwdd72=s680-w680-h510",
+      "name": "Dürüm",
+      "price": 300
+    },
+    {
+      "details": "Döner Göbit",
+      "image": "https://lh3.googleusercontent.com/p/AF1QipOPvUSBzlLG-QjD-T1AvmZxyWWpph6VWWKwdd72=s680-w680-h510",
+      "name": "Göbit",
+      "price": 300
+    },
+    {
+      "details": "Döner Sevis",
+      "image": "https://lh3.googleusercontent.com/p/AF1QipOPvUSBzlLG-QjD-T1AvmZxyWWpph6VWWKwdd72=s680-w680-h510",
+      "name": "Döner Servis",
+      "price": 300
+    },
+    {
+      "details": "Pilav Üstü Döner",
+      "image": "https://lh3.googleusercontent.com/p/AF1QipOPvUSBzlLG-QjD-T1AvmZxyWWpph6VWWKwdd72=s680-w680-h510",
+      "name": "Pilav Üstü Döner",
+      "price": 325
+    },
+    {
+      "details": "Döner Güveç",
+      "image": "https://lh3.googleusercontent.com/p/AF1QipOPvUSBzlLG-QjD-T1AvmZxyWWpph6VWWKwdd72=s680-w680-h510",
+      "name": "Döner Güveç",
+      "price": 400
+    },
+    {
+      "details": "İskender",
+      "image": "https://lh3.googleusercontent.com/p/AF1QipOPvUSBzlLG-QjD-T1AvmZxyWWpph6VWWKwdd72=s680-w680-h510",
+      "name": "İskender",
+      "price": 380
+    },
+    {
+      "details": "Alinazik Döner",
+      "image": "https://lh3.googleusercontent.com/p/AF1QipOPvUSBzlLG-QjD-T1AvmZxyWWpph6VWWKwdd72=s680-w680-h510",
+      "name": "Alinazik Döner",
+      "price": 410
+    },
+    {
+      "details": "Beyti Döner",
+      "image": "https://lh3.googleusercontent.com/p/AF1QipOPvUSBzlLG-QjD-T1AvmZxyWWpph6VWWKwdd72=s680-w680-h510",
+      "name": "Beyti Döner",
+      "price": 380
+    }
+  ],
+  "Steaks": [
+    {
+      "details": "Dana Lokum",
+      "image": "https://lh3.googleusercontent.com/p/AF1QipOPvUSBzlLG-QjD-T1AvmZxyWWpph6VWWKwdd72=s680-w680-h510",
+      "name": "Dana Lokum",
+      "price": 450
+    },
+    {
+      "details": "İki Kişilik Dana Bonfile Kavurma",
+      "image": "https://lh3.googleusercontent.com/p/AF1QipOPvUSBzlLG-QjD-T1AvmZxyWWpph6VWWKwdd72=s680-w680-h510",
+      "name": "Dana Bonfile Kavurma",
+      "price": 900
+    },
+    {
+      "details": "Dana Hardallı Bonfile",
+      "image": "https://lh3.googleusercontent.com/p/AF1QipOPvUSBzlLG-QjD-T1AvmZxyWWpph6VWWKwdd72=s680-w680-h510",
+      "name": "Dana Hardallı Bonfile",
+      "price": 575
+    },
+    {
+      "details": "Dana Takoz Bonfile",
+      "image": "https://lh3.googleusercontent.com/p/AF1QipOPvUSBzlLG-QjD-T1AvmZxyWWpph6VWWKwdd72=s680-w680-h510",
+      "name": "Dana Takoz Bonfile",
+      "price": 575
+    },
+    {
+      "details": "İki Kişilik Steak Special",
+      "image": "https://lh3.googleusercontent.com/p/AF1QipOPvUSBzlLG-QjD-T1AvmZxyWWpph6VWWKwdd72=s680-w680-h510",
+      "name": "Steak Special",
+      "price": 950
+    }
+  ],
+  "Burger": [
+    {
+      "details": "Steak Burger",
+      "image": "https://lh3.googleusercontent.com/p/AF1QipOPvUSBzlLG-QjD-T1AvmZxyWWpph6VWWKwdd72=s680-w680-h510",
+      "name": "Steak Burger",
+      "price": 450
+    },  
+    {
+      "details": "Cheesburger",
+      "image": "https://lh3.googleusercontent.com/p/AF1QipOPvUSBzlLG-QjD-T1AvmZxyWWpph6VWWKwdd72=s680-w680-h510",
+      "name": "Cheesburger",
+      "price": 320
+    }
+  ],
+  "İçecekler": [
+    {
+      "details": "Coca Cola",
+      "image": "https://lh3.googleusercontent.com/p/AF1QipOPvUSBzlLG-QjD-T1AvmZxyWWpph6VWWKwdd72=s680-w680-h510",
+      "name": "Coca Cola",
+      "price": 50
+    },
+    {
+      "details": "Fuse Tea",
+      "image": "https://lh3.googleusercontent.com/p/AF1QipOPvUSBzlLG-QjD-T1AvmZxyWWpph6VWWKwdd72=s680-w680-h510",
+      "name": "Fuse Tea",
+      "price": 50
+    },
+    {
+      "details": "Fanta",
+      "image": "https://lh3.googleusercontent.com/p/AF1QipOPvUSBzlLG-QjD-T1AvmZxyWWpph6VWWKwdd72=s680-w680-h510",
+      "name": "Fanta",
+      "price": 50
+    },
+    {
+      "details": "Meyve Suyu",
+      "image": "https://lh3.googleusercontent.com/p/AF1QipOPvUSBzlLG-QjD-T1AvmZxyWWpph6VWWKwdd72=s680-w680-h510",
+      "name": "Meyve Suyu",
+      "price": 50
+    },
+    {
+      "details": "Sprite",
+      "image": "https://lh3.googleusercontent.com/p/AF1QipOPvUSBzlLG-QjD-T1AvmZxyWWpph6VWWKwdd72=s680-w680-h510",
+      "name": "Sprite",
+      "price": 50
+    },
+    {
+      "details": "Şalgam",
+      "image": "https://lh3.googleusercontent.com/p/AF1QipOPvUSBzlLG-QjD-T1AvmZxyWWpph6VWWKwdd72=s680-w680-h510",
+      "name": "Şalgam",
+      "price": 50
+    },
+    {
+      "details": "Soda",
+      "image": "https://lh3.googleusercontent.com/p/AF1QipOPvUSBzlLG-QjD-T1AvmZxyWWpph6VWWKwdd72=s680-w680-h510",
+      "name": "Soda",
+      "price": 50
+    },
+    {
+      "details": "Kapalı Ayran",
+      "image": "https://lh3.googleusercontent.com/p/AF1QipOPvUSBzlLG-QjD-T1AvmZxyWWpph6VWWKwdd72=s680-w680-h510",
+      "name": "Kapalı Ayran",
+      "price": 40
+    },
+    {
+      "details": "Yayık Ayran",
+      "image": "https://lh3.googleusercontent.com/p/AF1QipOPvUSBzlLG-QjD-T1AvmZxyWWpph6VWWKwdd72=s680-w680-h510",
+      "name": "Yayık Ayran",
+      "price": 40
+    },
+    {
+      "details": "Su",
+      "image": "https://lh3.googleusercontent.com/p/AF1QipOPvUSBzlLG-QjD-T1AvmZxyWWpph6VWWKwdd72=s680-w680-h510",
+      "name": "Su",
+      "price": 40
+    }
+  ],
+  "Çorba": [
+    {
+      "details": "Günün Çorbası",
+      "image": "https://lh3.googleusercontent.com/p/AF1QipOPvUSBzlLG-QjD-T1AvmZxyWWpph6VWWKwdd72=s680-w680-h510",
+      "name": "Günün Çorbası",
+      "price": 90
+    }
+  ],
+  "Tatlı": [
+    {
+      "details": "Sütlaç",
+      "image": "https://lh3.googleusercontent.com/p/AF1QipOPvUSBzlLG-QjD-T1AvmZxyWWpph6VWWKwdd72=s680-w680-h510",
+      "name": "Sütlaç",
+      "price": 100
+    },
+    {
+      "details": "Ballı Yoğurtlu",
+      "image": "https://lh3.googleusercontent.com/p/AF1QipOPvUSBzlLG-QjD-T1AvmZxyWWpph6VWWKwdd72=s680-w680-h510",
+      "name": "Meyveli Cup",
+      "price": 160
+    }
+  ],
+  "Kampanyalar": [
+    {
+      "details": "İki Lahmacun ve Ayran",
+      "image": "https://lh3.googleusercontent.com/p/AF1QipOPvUSBzlLG-QjD-T1AvmZxyWWpph6VWWKwdd72=s680-w680-h510",
+      "name": "Lahmacun Menü",
+      "price": 270
+    }
+  ]
+}
