@@ -10,7 +10,7 @@
     <meta name="author" content="">
     <link href="../img/rocket.png" rel="icon">
     <link href="../img/rocket.png" rel="apple-touch-icon">
-    <title>Caddebaşı Restaurant - Yönetim Paneli</title>
+    <title>Bolu Mangal Keyfi - Cayyolu Menu</title>
 
     <!-- Custom fonts for this template-->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet" type="text/css">
@@ -74,29 +74,43 @@
                 </a>
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <!-- <a class="collapse-item" href="../Sube1/tablesTr.html">Çayyolu Şubesi, Şube-1</a> -->
-                        <a class="collapse-item" href="#!">Menü Düzenleme</a>
+                        <!-- <a class="collapse-item" href="Sube1/tablesTr.html">Çayyolu Şubesi, Şube-1</a> -->
+                        <a class="collapse-item" href="../Sube1/tablesTr.html">Çayyolu Şubesi</a>
+
+                        <!-- <a class="collapse-item" href="cards.html">Images</a>
+                        <a class="collapse-item" href="cards.html">Price</a> -->
+                    </div>
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <!-- <a class="collapse-item" href="Sube2/tablesTr.html">Şaşmaz Şubesi, Şube-2</a> -->
+                        <a class="collapse-item" href="../Sube2/tablesTr.html">Şaşmaz Şubesi</a>
+                        <!-- <a class="collapse-item" href="cards.html">Images</a>
+                        <a class="collapse-item" href="cards.html">Price</a> -->
+                    </div>
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <!-- <a class="collapse-item" href="Sube3/tablesTr.html">Balgat Şubesi, Şube-3</a> -->
+                        <a class="collapse-item" href="../Sube3/tablesTr.html">Balgat Şubesi</a>
+                        <!-- <a class="collapse-item" href="cards.html">Images</a>
+                        <a class="collapse-item" href="cards.html">Price</a> -->
+                    </div>
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <!-- <a class="collapse-item" href="Sube4/tablesTr.html"> Macunköy Şubesi, Şube-4</a> -->
+                        <a class="collapse-item" href="../Sube4/tablesTr.html">Macunköy Şubesi</a>
+                        <!-- <a class="collapse-item" href="cards.html">Images</a>
+                        <a class="collapse-item" href="cards.html">Price</a> -->
+                    </div>
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <!-- <a class="collapse-item" href="Sube5/tablesTr.html">Cebeci Şubesi, Şube-5</a> -->
+                        <a class="collapse-item" href="../Sube5/tablesTr.html">Cebeci Şubesi</a>
                         <!-- <a class="collapse-item" href="cards.html">Images</a>
                         <a class="collapse-item" href="cards.html">Price</a> -->
                     </div>
                 </div>
             </li>
-
-
-
-            <hr class="sidebar-divider d-none d-md-block">
-
-            <!-- Sidebar Toggler (Sidebar) -->
-            <!-- <div class="text-center d-none d-md-inline">
-                <button class="rounded-circle border-0" id="sidebarToggle"></button>
-            </div> -->
-            <!-- Sidebar Message -->
             <div class="sidebar-card d-none d-lg-flex">
-                <img class="sidebar-card-illustration mb-2" src="../img/logo.png" alt="...">
+                <img class="sidebar-card-illustration mb-2" src="../img/rocket.png" alt="...">
                 <p class="text-center mb-2" id="last_status">Lisans Bitiş Tarihi <br>
-                <a class="btn btn-danger btn-sm" href="#!" onclick="demo()">Demo</a></p>
+                <a class="btn btn-success btn-sm" href="#!" onclick="demo()">01.10.2025</a></p>
             </div>
-
 
             <!-- Divider -->
             <hr class="sidebar-divider">
@@ -117,7 +131,7 @@
                 <!-- Topbar -->
                 <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow border-bottom-primary">
                     <img src="../img/logo.png" height="60px" style="border-radius: 50%;"> 
-                    <h1 class="h3 mb-0 text-gray-800"> Caddebaşı - Yönetim Paneli</h1>
+                    <h1 class="h3 mb-0 text-gray-800"> Bolumangal Cayyolu - Yönetim Paneli</h1>
                         
                 </nav>
                 <!-- End of Topbar -->
@@ -199,14 +213,14 @@
     </a>
 
     <!-- Bootstrap core JavaScript-->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../vendor/jquery/jquery.min.js"></script>
+    <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <!-- Core plugin JavaScript-->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="../vendor/jquery-easing/jquery.easing.min.js"></script>
 
     <!-- Custom scripts for all pages-->
-    <script src="js/sb-admin-2.min.js"></script>
+    <script src="../js/sb-admin-2.min.js"></script>
     <script src="https://www.gstatic.com/firebasejs/4.7.0/firebase.js"></script>
     <script src="main_scripts.js"></script>
     <script>
@@ -246,7 +260,7 @@
                         var klcd = document.getElementById("klcd").value;
                         var sfr = document.getElementById("sfr").value
                         var chck = document.getElementById("flexCheckDefault")
-                        if (klcd === "admin"  && sfr  === "admin") {
+                        if (klcd === "bolu"  && sfr  === "Rö01011955") {
                             console.log("girisbasarili")
                             tablokisimlari.style.visibility = "visible"
                             if(chck.checked == true) {
