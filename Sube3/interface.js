@@ -117,4 +117,20 @@ function init(){
       },
       10000,
   )
-  
+  setTimeout(
+    () => {
+      Swal.fire({
+        title: 'Google\'da bizi puanlamak ister misiniz?',
+        showCancelButton: true,
+        confirmButtonText: 'Puanla',
+        imageUrl: '../assets/img/logo.png',
+        cancelButtonText: 'İptal'
+    }).then((result) => {
+        if (result.isConfirmed) {
+            const yorum = result.value;
+            window.open('https://www.google.com/search?safe=active&sca_esv=b0746d9f5af44b5f&sca_upv=1&rlz=1C1GCEU_enTR1089TR1089&uds=ADvngMjcH0KdF7qGWtwTBrP0nt7d5S9DMKQa2T5BHjAL3AcmsY2IXJhBPP60W0NWooMYV9hE_GpR7GkfXg0VysE6A7Quhu86gxKMQCy9fkD_D9XueJUnKiyPW9knaLs995Rp9dBxVWWzK8hvsB_CBgIPbfcqkf8hDw&si=ACC90nzZwgO0P4Qu3-A0NldYnwAKwrAmvjJXmiihL2mEqps3A5ONTgKEoL_eFhKblCDHZ6akdm721o0askKy5UBs5kXdkHZAJBa1hQ5QlYnywLUPVjQ6Vhs%3D&q=Bolu+Mangal+Keyfi+Balgat+Yorumlar&sa=X&ved=2ahUKEwj0sIq3p-2IAxVJSvEDHSMWMVYQ3PALegQIWBAF&biw=1920&bih=929&dpr=1');
+        }
+    });
+    },
+    25000,
+  )

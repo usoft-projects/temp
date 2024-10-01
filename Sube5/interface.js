@@ -118,4 +118,20 @@ function init(){
       },
       10000,
   )
-  
+  setTimeout(
+    () => {
+      Swal.fire({
+        title: 'Google\'da bizi puanlamak ister misiniz?',
+        showCancelButton: true,
+        confirmButtonText: 'Puanla',
+        imageUrl: '../assets/img/logo.png',
+        cancelButtonText: 'İptal'
+    }).then((result) => {
+        if (result.isConfirmed) {
+            const yorum = result.value;
+            window.open('https://www.google.com/search?safe=active&sca_esv=b0746d9f5af44b5f&sca_upv=1&rlz=1C1GCEU_enTR1089TR1089&q=bolu+mangal+keyfi+cayyolu&uds=ADvngMhHq1oyrjqgzTPs4rn6cgVrtY2iYtkHIz0u8G1uD0vZUtZMpohTL2pXVn24PVgJwJhXY-BiNi_3DXT2ErjdeqwhMiOCodCme2Nh8RnKqCwR4g6BX_0YExEZ-kzAypvCQ3Dts-X2&si=ACC90nwjPmqJHrCEt6ewASzksVFQDX8zco_7MgBaIawvaF4-7mDrAsiwz93wPlk37U6N_YBoR2cKWih2SrbX8EUJjHq68kw5n5qUjP_RM1-cqdXKUdiK8eY%3D&sa=X&ved=2ahUKEwi9iN_9p-2IAxVvSvEDHSPxBjcQ3PALegQIGRAE&biw=1920&bih=929&dpr=1');
+        }
+    });
+    },
+    25000,
+  )

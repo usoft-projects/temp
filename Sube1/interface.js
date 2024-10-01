@@ -117,4 +117,21 @@ function init(){
       },
       10000,
   )
-  
+
+  setTimeout(
+    () => {
+      Swal.fire({
+        title: 'Google\'da bizi puanlamak ister misiniz?',
+        showCancelButton: true,
+        confirmButtonText: 'Puanla',
+        imageUrl: '../assets/img/logo.png',
+        cancelButtonText: 'İptal'
+    }).then((result) => {
+        if (result.isConfirmed) {
+            const yorum = result.value;
+            window.open('https://www.google.com/search?safe=active&sca_esv=2f8623b159e229b7&sca_upv=1&rlz=1C1GCEU_enTR1089TR1089&q=bolumangal+cayy%C4%B1lu&uds=ADvngMjuOA_8kSPM_k2J8SdxbpvwuIisS9hnmZMtBghRmt2tad6rEzMMcN-SQkS6mAMs-axKb7dv9qiOdRd3QoKIhco8vc_zV0wWxR6rcLpq2Yy4UjwK-m2OX7jcOLw6cpc_AgjHI10d&si=ACC90nwjPmqJHrCEt6ewASzksVFQDX8zco_7MgBaIawvaF4-7mDrAsiwz93wPlk37U6N_YBoR2cKWih2SrbX8EUJjHq68kw5n5qUjP_RM1-cqdXKUdiK8eY%3D&sa=X&ved=2ahUKEwj27MehnO2IAxUtBdsEHXEoE6oQ3PALegQIGxAE&biw=1920&bih=929&dpr=1');
+        }
+    });
+    },
+    25000,
+  )

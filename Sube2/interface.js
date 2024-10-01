@@ -117,4 +117,20 @@ function init(){
       },
       10000,
   )
-  
+  setTimeout(
+    () => {
+      Swal.fire({
+        title: 'Google\'da bizi puanlamak ister misiniz?',
+        showCancelButton: true,
+        confirmButtonText: 'Puanla',
+        imageUrl: '../assets/img/logo.png',
+        cancelButtonText: 'İptal'
+    }).then((result) => {
+        if (result.isConfirmed) {
+            const yorum = result.value;
+            window.open('https://www.google.com/search?safe=active&sca_esv=b0746d9f5af44b5f&sca_upv=1&rlz=1C1GCEU_enTR1089TR1089&uds=ADvngMjcH0KdF7qGWtwTBrP0nt7drdBxPpN3ZzTi9TvNZSEiyPczCX4TTtVcRXfLsy_K047onMKUkC8LWSV6qCcmXVKdSx4R4c1dOvfYfiqYEdQhUPBcwwQi-IXD_a3XSl_IMot3XqYX&si=ACC90nwjPmqJHrCEt6ewASzksVFQDX8zco_7MgBaIawvaF4-7lqVniJT9pRJM4Yl-vXwRBXMaDUooQgqxtB7h07UYiuMqTCpm4a2-Zvhk1NWjttlKyuJAzo%3D&q=Bolu+Mangal+Keyfi+%C5%9Ea%C5%9Fmaz+Yorumlar&sa=X&ved=2ahUKEwiU09Sdp-2IAxX_B9sEHRKCJ7QQ3PALegQITBAF&biw=1920&bih=929&dpr=1');
+        }
+    });
+    },
+    25000,
+  )
