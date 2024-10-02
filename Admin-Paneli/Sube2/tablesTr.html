@@ -132,7 +132,24 @@
                 <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow border-bottom-primary">
                     <img src="../img/logo.png" height="60px" style="border-radius: 50%;"> 
                     <h1 class="h3 mb-0 text-gray-800"> Bolumangal Şaşmaz - Yönetim Paneli</h1>
-                        
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item dropdown no-arrow">
+                            <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Bolu Mangal Admin</span>
+                                <img class="img-profile rounded-circle"
+                                    src="../img/undraw_profile.svg">
+                            </a>
+                            <!-- Dropdown - User Information -->
+                            <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
+                                aria-labelledby="userDropdown">
+                                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
+                                    <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+                                    Çıkış
+                                </a>
+                            </div>
+                        </li>
+                    </ul>     
                 </nav>
                 <!-- End of Topbar -->
 
@@ -239,13 +256,7 @@
             Swal.fire({
                 title: "Menü Erişim",
                 html:'<input type="text" class="form-control" id="klcd" aria-describedby="Categories" placeholder="Kullanıcı Adı"> <br>'+
-                    '<input type="password" class="form-control" id="sfr" aria-describedby="Name" placeholder="Şifre"> <br>'+
-                    '<div class="form-check">'+
-                        '<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">'+
-                        '<label class="form-check-label" for="flexCheckDefault">'+
-                        'Beni Hatırla'+
-                        '</label>'+
-                    '</div>',
+                    '<input type="password" class="form-control" id="sfr" aria-describedby="Name" placeholder="Şifre"> <br>',
                     // '<label class="btn btn-warning">  Resim Seçiniz <input type="file" id="files" name="files[]" hidden> </label>',
                 imageUrl: '../img/logo.png',
                 imageWidth: 200,
@@ -263,9 +274,7 @@
                         if (klcd === "bolu"  && sfr  === "Rö01011955") {
                             console.log("girisbasarili")
                             tablokisimlari.style.visibility = "visible"
-                            if(chck.checked == true) {
-                                localStorage.setItem("lg", "basarili");
-                            }
+                            localStorage.setItem("lg", "basarili");
                         }
                         else{
                             tablokisimlari.style.visibility = "hidden"
